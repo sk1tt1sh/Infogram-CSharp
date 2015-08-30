@@ -20,7 +20,7 @@ class Program
     Dictionary<string,string> parameters = new Dictionary<string,string>();
     parameters.Add("theme_id","32");
     parameters.Add("title","Test");
-    parameters.Add("content","[{\"text\":\"Hello!\",\"type\":\"h1\"}]);
+    parameters.Add("content","[{\"text\":\"Hello!\",\"type\":\"h1\"}]");
     
     WriteResponse(api.SendRequest("POST","infographics",parameters));
     
