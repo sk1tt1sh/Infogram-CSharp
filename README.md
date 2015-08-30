@@ -7,13 +7,14 @@ https://github.com/infogram/infogram-java-samples/blob/master/src/main/java/net/
 THIS LIBRARY USES .NET 4.5+
 
 //Example:
-using Infogram;
+```cs
+using Infogram;          
 using System.Net.Http; //needed for the HttpResponseMessage object returned by the api
 
 class Program
-{
-  static void Main()
-  {
+{                          
+  static void Main()            
+  {                   
     InfogramAPI api = new InfogramAPI("API_KEY","API_SECRET");
     
     Dictionary<string,string> parameters = new Dictionary<string,string>();
@@ -30,6 +31,7 @@ class Program
     Console.WriteLine(await response.Content.ReadAsStringAsync());
   }
 }
+```
 //
 
 -sk1tt1sh
