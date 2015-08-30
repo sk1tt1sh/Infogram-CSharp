@@ -4,6 +4,10 @@ SDK For interacting with the infogram API (https://infogr.am/)
 Use it exactly like the JAVA SDK as shown here:
 https://github.com/infogram/infogram-java-samples/blob/master/src/main/java/net/infogram/example/CreateInfographic.java
 
+1. Clone the archive and load into visual studio
+2. Output type is "Class library" compile it
+3. In another project add it as a reference (You'll have to browse to it)
+
 THIS LIBRARY USES .NET 4.5+
 
 //Example:
