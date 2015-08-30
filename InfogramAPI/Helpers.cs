@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 using System.Security.Cryptography;
 using System.Web;
 
-namespace InfogramAPI
+namespace Infogram
 {
     class Helpers
     {

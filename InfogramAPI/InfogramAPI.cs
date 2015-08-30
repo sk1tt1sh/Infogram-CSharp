@@ -5,7 +5,7 @@ using System.Text;
 using System.Net.Http;
 using System.Threading.Tasks;
 
-namespace InfogramAPI
+namespace Infogram
 {
     public class InfogramAPI
     {

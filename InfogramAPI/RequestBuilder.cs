@@ -5,7 +5,7 @@ using System.Text;
 using System.Web;
 using System.Net.Http;
 
-namespace InfogramAPI
+namespace Infogram
 {
     class RequestBuilder
     {
